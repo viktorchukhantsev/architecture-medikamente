@@ -1,0 +1,72 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36" version="28.2.4">
+  <diagram name="Страница — 1" id="VVFLxj3z1F1GEr8hPZjJ">
+    <mxGraphModel dx="1532" dy="864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9qPh1k6vbmJMXDvl4d07-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9qPh1k6vbmJMXDvl4d07-1" target="9qPh1k6vbmJMXDvl4d07-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9qPh1k6vbmJMXDvl4d07-5" value="Приходит на прием" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9qPh1k6vbmJMXDvl4d07-4">
+          <mxGeometry x="0.0703" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9qPh1k6vbmJMXDvl4d07-1" value="Пациент" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9qPh1k6vbmJMXDvl4d07-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9qPh1k6vbmJMXDvl4d07-2" target="9qPh1k6vbmJMXDvl4d07-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="110" />
+              <mxPoint x="500" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9qPh1k6vbmJMXDvl4d07-8" value="данные пациента PII" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9qPh1k6vbmJMXDvl4d07-7">
+          <mxGeometry x="0.251" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9qPh1k6vbmJMXDvl4d07-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9qPh1k6vbmJMXDvl4d07-2" target="9qPh1k6vbmJMXDvl4d07-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="110" />
+              <mxPoint x="500" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9qPh1k6vbmJMXDvl4d07-11" value="медицинские данные&amp;nbsp;&lt;div&gt;пациента PHI&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9qPh1k6vbmJMXDvl4d07-10">
+          <mxGeometry x="0.198" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9qPh1k6vbmJMXDvl4d07-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9qPh1k6vbmJMXDvl4d07-2" target="9qPh1k6vbmJMXDvl4d07-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="110" />
+              <mxPoint x="530" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9qPh1k6vbmJMXDvl4d07-14" value="медицинские данные&amp;nbsp;&lt;div&gt;пациента PHI&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9qPh1k6vbmJMXDvl4d07-13">
+          <mxGeometry x="0.5443" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9qPh1k6vbmJMXDvl4d07-2" value="Врач" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9qPh1k6vbmJMXDvl4d07-6" value="&lt;div&gt;журнал приема&lt;/div&gt;excel file на общем диске" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9qPh1k6vbmJMXDvl4d07-9" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;медкарта&lt;/span&gt;&lt;/div&gt;&lt;div&gt;снимки&lt;/div&gt;&lt;div&gt;&amp;nbsp;на общем диске&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9qPh1k6vbmJMXDvl4d07-12" value="&lt;div&gt;анализы&lt;/div&gt;excel file на общем диске" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
